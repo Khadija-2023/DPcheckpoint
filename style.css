@@ -43,6 +43,17 @@ button{
     margin-top: 10%;
 
 }
+select{
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    width: 175px;
+    height: 25px;
+    margin-left: 25px;
+    border-radius: 4px;
+    background: #3d83df;
+    background: #fff;
+}
 
 .logo-container {
     display: flex;
@@ -162,14 +173,14 @@ button{
     margin-top: 25px;
 }
 .container .adress-list-links .adress-link {
-    display: flex;
+    display:flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     margin-left: 80px;
     margin-right: 80px;
     padding:10px 0;
-
+   
 }
 ul{
     list-style: none;
